@@ -7,10 +7,10 @@ data:
       - system:nodes
       username: system:node:{{EC2PrivateDNSName}}
   mapUsers: |
-    - userarn: arn:aws:iam::677673473487:user/suresh
-      username: suresh
-      groups:
-      - suresh-group
+  - userarn: arn:aws:iam::677673473487:user/mahi
+    username: mahi
+    groups:
+    - mahi-group
 kind: ConfigMap
 metadata:
   creationTimestamp: "2026-09-05T06:47:33Z"

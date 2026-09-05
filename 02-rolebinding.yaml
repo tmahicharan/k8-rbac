@@ -5,9 +5,9 @@ metadata:
   namespace: roboshop
 subjects:
 - kind: User
-  name: suresh # Name is case sensitive
+  name: mahi # Name is case sensitive
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role
-  name: suresh
+  name: mahi
   apiGroup: rbac.authorization.k8s.io
