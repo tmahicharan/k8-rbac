@@ -4,9 +4,9 @@ metadata:
   name: aws-cli
   namespace: roboshop
 spec:
-serviceAccount: secrect-reader
-containers:
- - name: aws-cli
-   image: amazon/aws-cli
-   command: ["sleep", "1000"]
+  serviceAccount: secrect-reader
+  containers:
+  - name: aws-cli
+    image: amazon/aws-cli
+    command: ["sleep", "1000"]
    
